@@ -73,6 +73,8 @@ a:focus-visible, summary:focus-visible { outline: 2px solid var(--gold); outline
 .ln-service-item { min-height: 5rem; display: flex; align-items: center; justify-content: center; gap: .8rem; padding: .6rem 1rem; color: var(--ivory); font-size: .65rem; line-height: 1.4; letter-spacing: .1em; text-align: left; text-transform: uppercase; }
 .ln-service-item + .ln-service-item { border-left: 1px solid var(--line); }
 .ln-service-icon { color: var(--gold-soft); font: 400 1.6rem/1 var(--serif); }
+.ln-service-icon-chart { position: relative; display: inline-block; width: 1.15rem; height: 1.3rem; border-bottom: 1px solid var(--gold-soft); }
+.ln-service-icon-chart::before { position: absolute; bottom: .08rem; left: .12rem; width: .16rem; height: .38rem; background: var(--gold-soft); box-shadow: .31rem -.23rem 0 var(--gold-soft), .62rem -.52rem 0 var(--gold-soft); content: ""; }
 
 /* Secciones y tarjetas */
 .ln-section { padding: clamp(5rem,10vw,8rem) 0; }
